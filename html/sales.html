@@ -11,13 +11,14 @@
     <main> 
         <body> 
           <header>
-            <h1>Coco's Cookies </h1>
-            <a href="index.html"><img id="Home" src="../img/fish.jpg" alt="Fish" width="1000px" height="350px"> Home Page </a>    
-            <a href="sales.html">Sales Page</a>     
+            <h1>Sales Data </h1>
+            <a href="index.html"><img id="Home" src="../img/salmon.png" alt="Fish" width="950px" height="250px"> Home Page </a>    
+          <a href="contact.html">Contact Us</a></li> 
           </header>
 
           <form id="form">
-            <legend>Enter a new city and values here to see sales projections </legend>
+            <form id='addLocation'>
+            <legend>Below is random calculated cookies sold per hour during the business hours at each of our store location </legend>
             <fieldset>
              <label for="city">City</label> 
              <input type="text" required id="cityname" name="name">
@@ -34,7 +35,16 @@
             <button type="submit">Submit</button>
             </fieldset>
           </form>
-        </header>
+          <table id='cookieData'></table>
+
+          <article>
+            <img id='shirt' src="../img/shirt.jpeg" alt="tshirt">
+            <section>
+              <p>Be sure to check out our new limited edition T-skirts and cookies! In Store Only! Grab them while you can! </p>
+              <img id='chinook' src="../img/frosted-cookie.jpeg" alt="sugar cookie">
+            </section>
+          </article>
+       
         <main id="salesData">
           <h2> Sales Records</h2>
           <table id="dataTable"></table>
